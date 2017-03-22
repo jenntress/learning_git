@@ -13,13 +13,11 @@ Command line
 - git remote add origin
   - (copy and paste the URL from your new repo page on GitHub)
 - git push -u origin master
-  - this pushes all files in this directory
+  - this pushes ALL files in this directory
 
 Existing project
-1. git status
-  - reminds you of what files you have already committed
-- git add -A
-  - preparing to save changes made to all files
+1. git add -A
+  - preparing to save changes made to ALL files
 - git commit -m "INSERT DESCRIPTION OF CHANGES"
   - adds message to your commit, where you can tell yourself what you accomplished since last commit(BE SPECIFIC)
 - git push origin master
@@ -30,3 +28,5 @@ Other Commands
   - shows what's been synched
 - cat README.md
   - display this file in the terminal
+- git pull origin master
+  - this syncs changes FROM github
